@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KQ|Contact Me</title>
+</head>
+<style>
+    body {
+        background-color: #F0A6CA;
+    }
+
+    header h1 {
+        font-family: 'Recursive', sans-serif;
+        font-size: 50px;
+    }
+
+    h3 {
+        font-family: 'Recursive', sans-serif;
+        text-align: center;
+    }
+
+    nav {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        font-family: 'Recursive', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 20px;
+        width: 130px;
+        display: block;
+        margin: 0px 5px;
+        text-align: center;
+        background: #9C89B8;
+        color: #ffff;
+        border-radius: 25px;
+
+    }
+
+    nav a:hover {
+        background: #ffff;
+        color: #9C89B8;
+        border-radius: 15px;
+    }
+
+    .btn {
+        display: inline-block;
+        color: white;
+        background: #9C89B8;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #contactform {
+        grid-column: 3/5;
+        grid-row: 4/5;
+        padding: 50px;
+    }
+
+    #contactform h3 {
+        font-size: 30px;
+    }
+
+    #contactform form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #contactform div {
+        width: 55%;
+        margin: auto;
+    }
+
+    #contactform input,
+    #contactform textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    textarea {
+        height: 140px;
+    }
+
+    #contactform .submitbtn {
+        background: #9C89B8;
+        border-radius: 25px;
+        width: 50%;
+        margin: auto;
+        font-size: 20px;
+        padding: 10px;
+        border: 5px solid #fff;
+        color: #fff;
+        text-align: center;
+    }
+
+    footer ul {
+        color: #9C89B8;
+        margin-bottom: 15px;
+        text-align: center;
+        list-style: none;
+
+    }
+
+</style>
+
+<body>
+    <header>
+        <h1>Let's Chat!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Who am I?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contactform" class="talk">
+        <h3>Fill out the form!</h3>
+        <form>
+            <div>
+                <input type="text" name="name" placeholder="name">
+                <br>
+                <input type="email" name="email" placeholder="email">
+                <br>
+            </div>
+            <div>
+                <textarea name="message" placeholder="What's on your mind?"></textarea>
+                <br>
+            </div>
+            <input type="submit" value="Submit" class="submitbtn">
+        </form>
+    </div>
+
+
+    <footer>
+        <ul>
+            <li><a href="index.html"></a>Home</li>
+            <li><a href="about.html"></a>Who am I?</li>
+
+        </ul>
+
+    </footer>
+
+</body>
+
+</html
